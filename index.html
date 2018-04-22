@@ -6,12 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>甜宝宝的专属小屋</title>
+    <!-- <link rel="shortcut icon" href="./img/hand-drawn-heart.png" type="image/x-icon"> -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+    <style>
+        @keyframes heard-beat {
+            from {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(.8);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        
+        .heard-beat {
+            animation: heard-beat 1s;
+            animation-iteration-count: infinite;
+            transform-origin: center;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <div class="page-header">
+            <div class="row">
+
+                <div class="col-md-6 col-md-offset-3">
+                    <img class="img-responsive heard-beat" src="./img/hand-drawn-heart.svg" alt="">
+                </div>
+            </div>
             <h2>送个世界上最可爱最漂亮的老婆大人，么么哒!</h2>
             <p>现在什么都没有，以后再慢慢加，想加什么马上告诉我哈</p>
             <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
